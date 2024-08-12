@@ -5,17 +5,18 @@
 package model.dao;
 
 import java.util.List;
+import model.entities.Seller;
 
 /**
  *
  * @author alexandre
  */
-public interface SellerDAO {
+public interface SellerDao {
     
-     void insert(SellerDAO obj);
-    void update(SellerDAO obj);
-    void deleteById(int id);
-    SellerDAO findById(int id);
-    List<SellerDAO> findAll();
+    void insert(Seller obj);
+    void update(Seller obj);
+    void deleteById(Integer id);
+    Seller findById(Integer id);
+    List<Seller> findAll();
     
 }
