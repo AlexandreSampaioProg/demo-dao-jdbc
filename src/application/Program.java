@@ -11,7 +11,7 @@ public class Program {
          
         SellerDao sellerDao = DaoFactory.createSellerDao(); //Dependence injection without show the implementation
         
-        Seller seller = sellerDao.findById(3);
+        Seller seller = sellerDao.findById(1);
         
         System.out.println(seller);
        
