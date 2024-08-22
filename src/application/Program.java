@@ -47,11 +47,18 @@ public class Program {
 		
 		System.out.println("--------------------------------------------------");
 		
-		System.out.println("------------------- teste 4 seller insert----------------------");
+		System.out.println("------------------- teste 4 seller update----------------------");
 		
 		seller = sellerDao.findById(1);
 		seller.setName("Marta");
 		sellerDao.update(seller);
+
+		System.out.println("--------------------------------------------------");
+		
+		System.out.println("------------------- teste 4 seller delete----------------------");
+		
+
+		sellerDao.deleteById(1);
 
 		System.out.println("--------------------------------------------------");
 	}
