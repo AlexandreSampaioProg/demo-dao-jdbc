@@ -58,7 +58,7 @@ public class Program {
 		System.out.println("------------------- teste 4 seller delete----------------------");
 		
 
-		sellerDao.deleteById(1);
+		sellerDao.deleteById(20);
 
 		System.out.println("--------------------------------------------------");
 	}
